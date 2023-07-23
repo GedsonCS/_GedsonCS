@@ -6,7 +6,9 @@ import imgStyled from "../public/static/img/stack/styled.svg";
 import imgReact from "../public/static/img/stack/react.svg";
 import { FaVuejs } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
-import { FaDocker } from "react-icons/fa";
+import { SiPostgresql } from "react-icons/si";
+import { FaPython } from "react-icons/fa";
+import { SiDjango } from "react-icons/si";
 
 export const stackData = [
   {
@@ -33,7 +35,9 @@ export const stackData = [
     title: "React",
     img: imgReact,
   },
-  { title: "Vuejs", img: FaVuejs },
+
   { title: "TypeScript", img: SiTypescript },
-  { title: "Docker", img: FaDocker },
+  { title: "Python", img: FaPython },
+  { title: "DJango", img: SiDjango },
+  { title: "PostgreSQL", img: SiPostgresql },
 ];
